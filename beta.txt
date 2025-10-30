@@ -1,0 +1,4 @@
+Nombre: Gastón Celedón
+IP (ifconfig): 192.168.0.105
+Hora: 11:42
+
