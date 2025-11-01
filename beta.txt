@@ -2,3 +2,6 @@ Nombre: Gastón Celedón
 IP (ifconfig): 192.168.0.105
 Hora: 11:42
 
+Nombre: Karen Cardozo
+IP (ifconfig): 192.168.0.5
+Hora: 8:11
