@@ -141,3 +141,7 @@ utun4: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
 	nd6 options=201<PERFORMNUD,DAD>
 
 Hora: 8:35
+
+Nombre: Gastón Celedón
+IP: 192.168.0.105
+Hora: 12:34PM
