@@ -1,0 +1,11 @@
+a) El branch main quedó actualizado con los cambios de las ramas Beta, Gamma y Alfa.
+
+b) Si, luego del merge y de resolver conflictos del mismo.
+
+c) git branch -a
+git checkout apellido del compañero
+git pull origin apellido del compañero
+git checkout main
+git pull origin main
+git merge apellido del compañero
+esto para ambos.
