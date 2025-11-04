@@ -23,3 +23,22 @@ nano beta.txt                # o ifconfig >> beta.txt
 git add beta.txt
 git commit -m "Gamma agrega su nombre, IP e información de red al archivo beta.txt"
 git push origin main
+
+Respuesta Alfa (Karen Cardozo):
+G- git status
+  git add beta.txt
+  git commit -m "Agrego los datos de Alfa en beta.txt"
+  git push origin Diaz
+  git checkout Diaz
+  git pull --rebase origin Diaz
+  ifconfig
+  git add beta.txt
+  git rebase --continue
+  git push origin Diaz
+  history
+  git chechout Diaz
+  git checkout Diaz
+  git status
+  git commit -m "Agregue los datos de Alfa en beta.txt"
+  git push origin Diaz
+
