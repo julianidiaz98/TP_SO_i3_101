@@ -9,3 +9,17 @@ git checkout main
 git pull origin main
 git merge apellido del compañero
 esto para ambos.
+
+Responde GAMMA:
+d) Las ramas mantienen los datos que se agregaron en cada una. Si BETA o GAMMA hicieron cambios y luego se hizo el merge con la rama principal (main), esos datos quedan actualizados en main. Pero si no se hace el merge o un pull desde main, cada rama puede quedar desactualizada respecto a la otra.
+
+e) El principal problema al hacer el merge fue que ambos modificamos los mismos archivos, lo que generó conflictos. Git marcó esas diferencias con las líneas “<<<<<<<”, “=======” y “>>>>>>>”. Para resolverlo fue necesario editar los archivos, elegir la versión correcta, guardar los cambios y luego hacer:
+git add <archivo>
+git commit -m "resuelvo conflicto"
+git push origin main
+
+f) git pull origin main
+nano beta.txt                # o ifconfig >> beta.txt
+git add beta.txt
+git commit -m "Gamma agrega su nombre, IP e información de red al archivo beta.txt"
+git push origin main
